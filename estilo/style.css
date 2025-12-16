@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*Variáveis*/
+:root {
+    /*Paleta de cores*/
+    --cor0:#8488B6;
+    --cor1:#80818F;
+    --cor2:#7D85E0;
+    --cor3:#484A61;
+    --cor4:#1F2136;
+    --cor5:#171A38;
+    --cor6:white;
+    /*Fonte de destaque*/
+    --fonte-padrao:Arial, Helvetica, sans-serif;
+    --fonte-destaque:"Montserrat", sans-serif;
+    --fonte-normal:"Roboto", sans-serif;
+}
+
+
+
+* {
+    margin:0px;
+    padding: 0px;
+}
+
+body {
+    font-family: var(--fonte-padrao);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 50px 25px 50px;
+    background-color: var(--cor3);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.278);
+}
+
+header h1 {
+    font-family: var(--fonte-destaque);
+    color:var(--cor6);
+}
+
+header div > a{
+    width: 32px;
+    text-decoration: none;
+}
+
