@@ -52,18 +52,17 @@ header div > a{
 }
 
 main {
-    min-width: 600px;
     max-width: 1380px;
     margin: auto;
-    background-color:rgba(232, 226, 226, 0.125);
+    background-color:rgb(255, 255, 255);
 }
 
 #welcome {
     box-shadow: inset 2px 6px 13px rgba(132, 131, 131, 0.369);
-    background-image: url('../imagens/fundo01.jpeg');
+    background-image: url('../imagens/fundo02.png');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position:bottom center;
     color:rgba(255, 255, 255, 0.841);
     
 }
@@ -102,19 +101,21 @@ main {
 }
 
 
-.historial {
+.card {
     padding: 20px;
     display: inline-block;
+    box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.411);
+    border-radius: 6px;
 }
 
-.historial a {
+.card a {
     text-decoration: none;
     color: black;
 }
 
 
 
-.historial > p {
+.card > p {
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -126,4 +127,23 @@ main {
 
 div {
     background-color: white;
+}
+
+footer {
+    margin-top: 20px;
+    background-color: var(--cor3);
+    color: white;
+    padding: 8px;
+    text-align: center;
+}
+
+footer p a{
+    text-decoration: none;
+    color:white;
+}
+
+footer p a:hover {
+    background-color: var(--cor1);
+    padding: 3px;
+    border-radius: 5px;
 }
