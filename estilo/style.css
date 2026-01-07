@@ -36,7 +36,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 25px 50px 25px 50px;
-    background-color: var(--cor4);
+    background-color: black;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.278);
 }
 
@@ -119,10 +119,11 @@ main {
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
-    background-color: var(--cor0);
+    background-color: var(--cor4);
     font-family: var(--fonte-normal);
     text-transform: uppercase;    
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.229);
+    color: white;
 }
 
 div {
@@ -131,7 +132,7 @@ div {
 
 footer {
     margin-top: 20px;
-    background-color: var(--cor3);
+    background-color: black;
     color: white;
     padding: 8px;
     text-align: center;
